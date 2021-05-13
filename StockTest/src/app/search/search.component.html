@@ -1,0 +1,11 @@
+<div>
+
+  <input type="text" #prefix name="prefix" (keyup)="search(prefix.value)"/>
+
+  <ul>
+    <li (click)="selectStock(stock.Symbol)" *ngFor="let stock of stocks">{{stock.Symbol}}-{{stock.Name}}</li>
+  </ul>
+
+
+
+</div>

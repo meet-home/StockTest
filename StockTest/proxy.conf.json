@@ -1,0 +1,8 @@
+{
+  "/api/*": {
+    "target": "https://mobiledev.ordernet.co.il/",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

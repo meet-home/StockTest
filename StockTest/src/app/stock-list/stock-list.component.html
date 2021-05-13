@@ -1,0 +1,28 @@
+<div>
+  <table>
+    <tr>
+      <th></th>
+      <th>Symbol</th>
+      <th>Name</th>
+      <th>Base Price</th>
+      <th>Price</th>
+      <th>Bid Size</th>
+      <th>Bid Price</th>
+      <th>Ask Size</th>
+      <th>Ask Price</th>
+    </tr>
+    <tr *ngFor="let item of stockList | keyvalue">
+      <td></td>
+      <td>{{item.key}}</td>
+      <td>Name</td>
+      <td>Base Price</td>
+      <td>Price</td>
+      <td>Bid Size</td>
+      <td>Bid Price</td>
+      <td>Ask Size</td>
+      <td>Ask Price</td>
+    </tr>
+
+  </table>
+
+</div>
